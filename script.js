@@ -27,7 +27,8 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   let crit= []; //will push all character types into this array if if user selects it
   let passwordLength = prompt('Enter value between 8-128 for length of desired password:')
-  if (passwordLength < 8 || passwordLength > 128) {
+  //prevents user from entering information that does meet our criteria,
+  if (passwordLength < 8 || passwordLength > 128 || passwordLength/1 != passwordLength) {
     return alert('Please enter a value between 8-128');
   }
   let useLower = confirm('Do you want your password to contain lowercase character?');
