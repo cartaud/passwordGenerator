@@ -5,5 +5,6 @@ criteria, such as length, lowercase, uppercase, numbers and special characters t
 view the page <a href="https://cartaud.github.io/passwordGenerator/" target="_blank">here</a>
 
 preview 
-<img width="300px" src="#" alt="page preview">
+<img width="300px" src="https://user-images.githubusercontent.com/98357415/162111504-27670aaf-f276-459a-9f57-5834d09f528d.png" alt="page preview">
+
 
